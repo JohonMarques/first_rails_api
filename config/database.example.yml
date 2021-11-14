@@ -1,0 +1,11 @@
+development:
+  database: #database_name_development
+  adapter: postgresql
+  username: #database_username
+  password: #database_password
+  #host: localhost
+
+# production:
+#   database: database_name_production
+#   username: database_username
+#   password: <%= ENV['CLIENT_API_DATABASE_PASSWORD'] %>
